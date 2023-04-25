@@ -25,7 +25,7 @@ Vous allez débuter le projet en créant :
 
         - encapsule un nombre d'emplacement d'oeufs et une liste d'oeufs;
         - dispose de méthodes permettant d'accéder à ces informations et d'ajouter ou de retirer une instance `Egg` à la boîte;
-        - possède une méthode publique `is_valid` qui vérifie que le nombre d'oeufs composant l'entrepot est inférieur au nombre d'emplacements et déclenche l'analyse des immatriculations des oeufs et retourne `True` si les immatriculations sont valides et que les oeufs sont de la bonnes tailles, `False` sinon.
+        - possède une méthode publique `is_valid` qui vérifie que le nombre d'oeufs composant l'entrepot est inférieur au nombre d'emplacements et déclenche l'analyse des immatriculations des oeufs et retourne `True` si les immatriculations sont valides et que le nombre d'oeufs est inférieur ou égal au nombre d'emplacements, `False` sinon.
 
 - une classe `Egg` qui :
 
